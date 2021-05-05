@@ -9,7 +9,7 @@ export default class searchresult extends Component {
       keyword: "",
       data: [],
       page:1,
-      disp:"none"
+      disp:"none",
     };
   }
   oninput = (e) => {
@@ -27,12 +27,11 @@ export default class searchresult extends Component {
         this.setState({ temp:true,disp:"inline-block" });
       });
       {this.state.page>20 ?this.state.page=0 :this.state.page+=1}
-    }    
+    }  
+    
   };
-
   render() {
     const { keyword, data,disp } = this.state;
-    console.log(this.state.data);
     return (
       <div>
         <Header></Header>
@@ -57,7 +56,7 @@ export default class searchresult extends Component {
               </div>
             </div>
           </div>
-          <div className="row row-cols-2 row-cols-sm-3 row-cols-md-4 justify-content-center">
+          <div className="row row-cols-2 row-cols-sm-2 row-cols-md-4 justify-content-center">
         {data.map((data1)=>(
             <>
           {data1.map((data2, i) => (
@@ -77,12 +76,14 @@ export default class searchresult extends Component {
           ))}
           </div>
           <div className="row justify-content-center my-5" style={{display:disp}} >
-              <div className="col-md-12 mb-5"><button className="btn" onClick={this.search}><i class="fa fa-refresh loadmore" aria-hidden="true"></i>
+              <div className="col-md-12 mb-5">
+                
+                <button className="btn" onClick={this.search}><i class="fa fa-refresh loadmore" aria-hidden="true"></i>
 </button></div>
           </div>
         </div>
         <Footer></Footer>
       </div>
-    );
+    )
   }
 }
