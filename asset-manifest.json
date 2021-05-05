@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/searchimag/static/css/main.59c9b44d.chunk.css",
+    "main.js": "/searchimag/static/js/main.209f35e1.chunk.js",
+    "main.js.map": "/searchimag/static/js/main.209f35e1.chunk.js.map",
+    "runtime-main.js": "/searchimag/static/js/runtime-main.1694d481.js",
+    "runtime-main.js.map": "/searchimag/static/js/runtime-main.1694d481.js.map",
+    "static/js/2.1aea310d.chunk.js": "/searchimag/static/js/2.1aea310d.chunk.js",
+    "static/js/2.1aea310d.chunk.js.map": "/searchimag/static/js/2.1aea310d.chunk.js.map",
+    "static/js/3.39a20a0e.chunk.js": "/searchimag/static/js/3.39a20a0e.chunk.js",
+    "static/js/3.39a20a0e.chunk.js.map": "/searchimag/static/js/3.39a20a0e.chunk.js.map",
+    "index.html": "/searchimag/index.html",
+    "static/css/main.59c9b44d.chunk.css.map": "/searchimag/static/css/main.59c9b44d.chunk.css.map",
+    "static/js/2.1aea310d.chunk.js.LICENSE.txt": "/searchimag/static/js/2.1aea310d.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/searchimag/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/logo.6ce24c58.svg": "/searchimag/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1694d481.js",
+    "static/js/2.1aea310d.chunk.js",
+    "static/css/main.59c9b44d.chunk.css",
+    "static/js/main.209f35e1.chunk.js"
+  ]
+}
